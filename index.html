@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Jonas Rozalski</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    
+
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+    
+</head>
+
+
+<body>
+    <!-- header from Ceevee 2.0.0
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
+
+
+    <!-- hero from Ceevee 2.0.0
+    ================================================== -->
+    <section id="hero" class="target-section" style="background-color: gray; width: 100%; height: 100vh; overflow: hidden; position: relative;">
+
+            <video autoplay muted loop id="heroVid" class="hero_video">
+                <source src="videos/Demojonasrozalskicut.webm" type="video/mp4">
+            </video>
+
+            <div class="row s-hero__content">
+                <div class="column">
+
+                    <div class="s-hero__content-about">
+
+                        <h1>Jonas Rozalski</h1>
+
+                        <h3>
+                        3D Animator
+                        </h3>
+
+                        <div class="row s-about__content-bottom">
+                            <div class="column w-1000-stack">
+                                <a  class="btn btn--download vimeo_btn">
+                                        
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 10 50 50" style="fill:rgba(0, 0, 0, 1); transition: all 5s ease;"><path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                        c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                        C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z" stroke="black" stroke-width="2"></path><path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                        S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z" stroke="black" stroke-width="2"></path></svg>
+
+                                        Watch Demo Reel
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="modal_bg"></div>
+
+                    </div> <!-- end s-hero__content-about -->
+                </div>
+            </div> <!-- s-hero__content -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about from Ceevee 2.0.0
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/avatar_02.webp" alt="">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                Hi! I'm Jonas, a 3D animator from Germany. I am currently taking different courses and mentorships while trying to get my first job in the gaming industry.
+                <br>
+                My focus is on 3D gameplay animation. What I love most about this kind of animation is all the little tricks and details you can use to change the feel and impact of an animation.
+                <br><br>
+                Besides animating, my hobbies are videogames (of course) as well as pen and paper. 
+                My favorite games at the moment are Baldur's Gate 3, Final Fantasy XVI, Pokémon Violet, and League of Legends. Also, World of Warcraft and Final Fantasy XIV, if there is a new expansion to play.
+                </p>
+            </div>
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>My Latest Work</h3>
+            </div>
+        </div>
+
+        <div class="row collapse block-large-1-3 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-01" class="folio-item__thumb">
+                    <!-- <img src="images/portfolio/Gamma_Walk.gif"> -->
+                    <video autoplay loop muted playsinline>
+                        <source src="images/portfolio/GammaWalk.webm" type="video/webm" />
+                    </video>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-02" class="folio-item__thumb">
+                    <video autoplay loop muted playsinline>
+                        <source src="images/portfolio/Moveset Runf.webm" type="video/webm" />
+                    </video>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-03" class="folio-item__thumb">
+                    <video autoplay loop muted playsinline>
+                        <source src="images/portfolio/Akalidanceemote.webm" type="video/webm" />
+                    </video>
+                </a>
+            </div> <!-- end folio-item -->
+
+        <!-- Modal Templates Popup
+        =========================================================== -->
+        <div id="modal-01" hidden>
+            <div class="modal-popup">
+                <video autoplay loop muted playsinline class="GammaVideo">
+                    <source src="images/portfolio/gallery/Gamme Walk Video.webm" type="video/webm" />
+                </video>
+    
+                <div class="modal-popup__desc">
+                    <h5>Gamma Walkcycle</h5>
+                    <p>I did this walkcycle after my first term at Kyosil. <br> I wanted to try something new since I have never done a cycle for a quadruped before. It was a bit confusing at first but after figuring out the rythm of the feet it actually went quite well. <br>I definitely want to do more creature animations in the future!</p>
+                </div>
+    
+                <a href="https://agora.community/content/gamma-maya" target="_blank" class="modal-popup__details">Rig by Agora</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-02" hidden>
+            <div class="modal-popup">
+                <video autoplay loop muted playsinline class="RunFVideo">
+                    <source src="images/portfolio/gallery/Moveset Runf.webm" type="video/webm" />
+                </video>
+    
+                <div class="modal-popup__desc">
+                    <h5>Applibot Runcycle</h5>
+                    <p>I did this runcycle during my first term at Kyosil with Markus Hammarstedt.<br> It was an awesome learning experience and Markus taught me alot about his workflow and approach to these kind of animations. </p>
+                </div>
+    
+                <a href="https://www.applibot.co.jp/en/3drig/" target="_blank" class="modal-popup__details">Rig by applibot</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-03" hidden>
+            <div class="modal-popup">
+                <video autoplay loop muted playsinline class="AkaliVideo">
+                    <source src="images/portfolio/gallery/Akalidanceemotevideo.webm" type="video/webm" />
+                </video>
+    
+                <div class="modal-popup__desc">
+                    <h5>Akali Dance Emote</h5>
+                    <p>I started this animation inbetween courses and it was just planned as a test to see how I would do animating a dance. <br>While working on it I had so much fun that I spend more time on it than planned because I wanted to finsih it. I think it currently is my favorite animation I have done and the most fun I had while animating!</p>
+                </div>
+    
+                <a href="hhttps://agora.community/content/akali-maya" target="_blank" class="modal-popup__details">Rig by Riot Games</a>
+            </div>
+        </div> <!-- end modal -->
+
+    </section> <!-- end s-portfolio -->
+
+
+
+   <!-- resume Section
+   ================================================== -->
+   <section id="resume" class="grey-section target-section">
+   
+        <div class="row resume-timeline">
+
+            <div class="col-twelve resume-header">
+
+                <h2>Education</h2>
+
+            </div> <!-- /resume-header -->
+
+            <div class="col-twelve">
+
+                <div class="timeline-wrap">
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+
+                        <div class="timeline-header">
+                            <h3>Mentorship Program</h3>
+                            <p>August 2023 - October 2023</p>
+                        </div>
+
+                        <div class="timeline-content">
+                            <h4>KYOSIL.</h4>
+                            <p>Gameplay Animation Mentorship with Markus Hammarstedt.</p>
+                        </div>
+
+                    </div> <!-- /timeline-block -->
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+
+                        <div class="timeline-header">
+                            <h3>Game Workshop 1 & 2</h3>
+                            <p>October 2022 - May 2023</p>
+                        </div>
+
+                        <div class="timeline-content">
+                            <h4>iAnimate.net</h4>
+                            <p>Game Workshop 1: Advanced Body Mechanics and Workflows. Teacher: Sebastien Dussault</p>
+                            <p>Game Workshop 2: Combat, Takedowns and Advanced Techniques. <br>Teacher: Kevin Rucker</p>
+                        </div>
+
+                    </div> <!-- /timeline-block -->
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+
+                        <div class="timeline-header">
+                            <h3>Game Artist</h3>
+                            <p>September 2020 - September 2022</p>
+                        </div>
+
+                        <div class="timeline-content">
+                            <h4>School of Games</h4>
+                            <p>3D Generalist education with focus on game development.</p>
+                        </div>
+
+                    </div> <!-- /timeline-block -->
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+
+                        <div class="timeline-header">
+                            <h3>IT-Assistant</h3>
+                            <p>September 2017 - August 2019</p>
+                        </div>
+
+                        <div class="timeline-content">
+                            <h4>Bernd-Blindow-School</h4>
+                            <p>Education in software development and system integration in combination with an Advanced Technical Certificate.</p>
+                        </div>
+
+                    </div> <!-- /timeline-block -->
+
+                </div> <!-- /timeline-wrap -->   			
+
+            </div> <!-- /col-twelve -->
+            
+        </div> <!-- /resume-timeline -->
+    
+    </section> <!-- /features -->
+
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact" class="target-section">
+        <div class="row section-intro">
+            <div class="col-twelve">
+
+                <h2>Contact</h2>
+
+                <p class="lead">You can send me a message on any of these platforms or send me an email!</p>
+
+                <div style="text-align: center;">
+                    <ul class="s-footer__social" >
+                        <li><a href="https://twitter.com/jonasrozalski" target="_blank"><i class="fa-brands fa-square-twitter fa-xl"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jonas-rozalski-862460218/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></i></a></li>
+                        <li><a href="https://instagram.com/jonasrozalski" target="_blank"><i class="fa-brands fa-square-instagram fa-xl"></i></a></li>
+                    </ul>
+                </div>
+            </div> 
+         </div> <!-- /section-intro -->
+
+        <div class="row contact-info" style="margin-bottom: 0;">
+
+            <div class="col-four tab-full">
+            </div>
+
+            <div class="col-four tab-full collapse">
+                <div class="icon">
+                    <i class="icon-mail"></i>
+                </div>
+
+                <h5 style="padding-top: 30px; margin-bottom: 0;">Email Me!</h5>
+                <p class="lead">jonas@rozalski.net</p>
+                <!-- <i class="fa-solid fa-arrow-down fa-2xl" style="color: #ffffff;"></i> -->
+            </div>
+
+            <div class="col-four tab-full">
+            </div>
+            
+        </div> <!-- /contact-info -->
+
+        <div style="">
+            <!-- form -->
+            <a href="mailto:jonas@rozalski.net">
+                        <button class="submitform"><i class="fa fa-envelope" style="font-size: 24px;"></i></button>
+            </a> <!-- Form End -->
+        </div>
+    </section> <!-- /contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="ss-copyright">
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vimeo.js"></script>
+</body>
