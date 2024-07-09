@@ -199,9 +199,11 @@
     const ssLightbox = function() {
 
         const folioLinks = document.querySelectorAll('.folio-item a');
-        const video1 = document.querySelector('.GammaVideo');
-        const video2 = document.querySelector('.RunFVideo');
-        const video3 = document.querySelector('.AkaliVideo');
+        const video1 = document.querySelector('.CombatVideo');
+        const video2 = document.querySelector('.RoboGirlVideo');
+        const video3 = document.querySelector('.GammaVideo');
+        const video4 = document.querySelector('.RunFVideo');
+        const video5 = document.querySelector('.AkaliVideo');
         const modals = [];
 
         folioLinks.forEach(function(link) {
@@ -213,6 +215,8 @@
                         video1.play();
                         video2.play();
                         video3.play();
+                        video4.play();
+                        video5.play();
                         //detect Escape key press
                         document.addEventListener("keydown", function(evt) {
                             evt = evt || window.event;
